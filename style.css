@@ -1,0 +1,58 @@
+/* Universal Styles */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+}
+
+body{
+  background: black;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+a{
+  color: seashell;
+}
+
+h2,
+h4,
+h5 {
+  margin: 0;
+  padding: 10px;
+}
+
+
+/* Header Section */
+
+.header{
+  display: flex;
+  width: 100%;
+  position: fixed;
+  height: 69px;
+  z-index: 1;
+  background: black;
+  border-bottom: 1px solid seashell;
+}
+
+.header img{
+  height: 50px;
+  padding-left: 10px
+}
+
+.header nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+.nav span {
+  display: inline-block;
+  justify-content: flex-end;
+  padding: 20px 10px;
+}
